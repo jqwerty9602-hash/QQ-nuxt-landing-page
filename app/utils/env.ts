@@ -1,7 +1,7 @@
 // env.ts - Minimal clean version
 export const env = {
   // Core Site Info
-  NUXT_PUBLIC_SITE_URL: 'https://qqfun.com',
+  NUXT_PUBLIC_SITE_URL: 'https://qq-nuxt-landing-page.vercel.app',
   NUXT_SITE_NAME: 'QQFun',
   NUXT_SITE_DESCRIPTION: 'Premium gaming platform offering secure and entertaining gaming experiences with 24/7 support',
   
