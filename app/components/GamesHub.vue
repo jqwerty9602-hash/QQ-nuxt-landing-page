@@ -98,7 +98,7 @@ const games = ref<Game[]>([
   { name: "thor vs loki", image: "thor-vs-loki.png" },
   { name: "scrab remains", image: "scrab-remains.png" },
   { name: "fortune lions 2", image: "fortune-lions-2.png" },
-  { name: "warland lubu", image: "warland-lubu.png" },
+  { name: "warland lubu", image: "game-warland-lubu.png" },
   { name: "jalapeno", image: "jalapeno.png" },
   { name: "mahjong gold 3", image: "mahjong-gold3.png" },
   { name: "arctic clash", image: "arctic-clash.png" },
