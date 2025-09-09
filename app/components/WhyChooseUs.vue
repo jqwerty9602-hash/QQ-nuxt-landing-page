@@ -56,7 +56,7 @@
                 </div>
                 <div class="flex-1 sm:ml-3">
                   <h3
-                   class="!text-[15px] lg:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
+                   class="!text-[15px] sm:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
                   >
                     Rewarding
                   </h3>

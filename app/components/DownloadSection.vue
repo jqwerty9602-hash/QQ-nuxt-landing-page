@@ -17,7 +17,7 @@
           class="flex-1 flex flex-col justify-center items-center lg:items-center"
         >
           <!-- Download Title -->
-          <h2 class="mb-8 !text-white text-center h2-montserrat">
+          <h2 class="text-2xl sm:text-5xl mb-8 !text-white text-center h2-montserrat">
             Download QQFUN Now
           </h2>
 

@@ -108,7 +108,6 @@ body {
 /* Text Styles */
 h1 {
   font-family: var(--font-display);
-  font-size: clamp(3.5rem, 5vw, var(--font-size-heading-1));
   font-weight: 400;
   line-height: 1.1;
   color: var(--fourth);
