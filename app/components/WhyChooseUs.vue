@@ -14,7 +14,7 @@
             <!-- Content (Above Background) -->
             <div class="content-wrapper">
               <!-- Section Title -->
-              <h2 class="text-fourth mb-12 text-center lg:text-left">
+              <h2 class="text-2xl sm:text-5xl text-fourth mb-12 text-center lg:text-left">
                 Why Choose QQFUN?
               </h2>
 
@@ -31,11 +31,11 @@
                 </div>
                 <div class="flex-1 sm:ml-3">
                   <h3
-                    class="!text-[20px] lg:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
+                    class="!text-[15px] sm:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
                   >
                     Casual & Fun
                   </h3>
-                  <p class="text-[15px] md:text-lg leading-relaxed sm:mt-3 md:-ml-12">
+                  <p class="!text-[15px] sm:!text-2xl leading-relaxed sm:mt-3 md:-ml-12">
                     Our games are simple, quick and enjoyable – perfect for
                     coffee breaks, winding down after work, or just when you
                     want a spark of fun.
@@ -56,12 +56,12 @@
                 </div>
                 <div class="flex-1 sm:ml-3">
                   <h3
-                    class="!text-[20px] lg:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
+                   class="!text-[15px] lg:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
                   >
                     Rewarding
                   </h3>
                   <p
-                    class="text-[15px] md:text-lg leading-relaxed sm:mt-3 md:-ml-12"
+                    class="!text-[15px] sm:!text-2xl md:text-lg leading-relaxed sm:mt-3 md:-ml-12"
                   >
                     We believe playtime should give something back. That's why
                     QQFUN turns your spins and taps into real rewards.
@@ -82,12 +82,12 @@
                 </div>
                 <div class="flex-1 sm:ml-3">
                   <h3
-                    class="!text-[20px] lg:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
+                    class="!text-[15px] sm:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
                   >
                     Trusted
                   </h3>
                   <p
-                    class="text-[15px] md:text-lg leading-relaxed sm:mt-3 md:-ml-12"
+                    class="!text-[15px] sm:!text-2xl leading-relaxed sm:mt-3 md:-ml-12"
                   >
                     Built with fairness and safety in mind. No tricks, no stress
                     – just pure fun in a reliable environment.
