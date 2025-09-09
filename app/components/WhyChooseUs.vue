@@ -35,7 +35,7 @@
                   >
                     Casual & Fun
                   </h3>
-                  <p class="text-[15px] md:text-lg leading-relaxed sm:mt-3">
+                  <p class="text-[15px] md:text-lg leading-relaxed sm:mt-3 md:-ml-12">
                     Our games are simple, quick and enjoyable – perfect for
                     coffee breaks, winding down after work, or just when you
                     want a spark of fun.
@@ -61,7 +61,7 @@
                     Rewarding
                   </h3>
                   <p
-                    class="text-[15px] md:text-lg leading-relaxed sm:mt-3 max-w-full"
+                    class="text-[15px] md:text-lg leading-relaxed sm:mt-3 md:-ml-12"
                   >
                     We believe playtime should give something back. That's why
                     QQFUN turns your spins and taps into real rewards.
@@ -87,7 +87,7 @@
                     Trusted
                   </h3>
                   <p
-                    class="text-[15px] md:text-lg leading-relaxed sm:mt-3 max-w-full"
+                    class="text-[15px] md:text-lg leading-relaxed sm:mt-3 md:-ml-12"
                   >
                     Built with fairness and safety in mind. No tricks, no stress
                     – just pure fun in a reliable environment.
