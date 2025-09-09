@@ -1,6 +1,6 @@
 <template>
   <div class="games-hub-section">
-    <div class="relative z-10 py-20 md:py-26 rounded-lg">
+    <div class="relative z-10 py-20 md:py-26 rounded-lg mx-4 md:mx-30 lg:mx-30 xl:mx-40">
       <h2 class="text-center mb-4">Games Hub</h2>
       <p class="text-center text-base md:text-2xl mb-12">
         Discover all your favorite games in one fun spot!
@@ -219,14 +219,12 @@ onUnmounted(() => stopAutoAdvance());
   min-height: 100vh;
   background: var(--primary) url("/images/games-hub-bg.png") center/cover no-repeat;
   overflow: hidden;
-  padding: 0 clamp(1rem, 4vw, 5rem);
 }
 
 .games-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: clamp(1rem, 2vw, 1.5rem);
-  margin: 0 clamp(0.5rem, 2vw, 1.5rem);
+  gap: clamp(12px, 1vw, 1rem);
   transition: all 0.5s ease;
 }
 
@@ -254,7 +252,7 @@ onUnmounted(() => stopAutoAdvance());
   text-align: center;
   font-size: 0.875rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--overlay-white-90);
   text-transform: capitalize;
   transition: color 0.3s ease;
 }
@@ -309,7 +307,6 @@ onUnmounted(() => stopAutoAdvance());
   transform: scale(1.1);
 }
 
-/* Rest of your styles remain the same */
 @keyframes fadeInUp {
   from {
     opacity: 0;

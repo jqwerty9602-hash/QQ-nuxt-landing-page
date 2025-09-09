@@ -56,12 +56,15 @@
   /* Background */
   --header-bg: #28006fe0;
   --btn-bg: #4b2ee7;
+  --primary-bg: #0D0027;
+  --primary-50-bg: #260E53;
 
   /* Overlay */
   --overlay-white-10: rgba(255, 255, 255, 0.1);
   --overlay-white-20: rgba(255, 255, 255, 0.2);
   --overlay-white-30: rgba(255, 255, 255, 0.3);
   --overlay-white-60: rgba(255, 255, 255, 0.6);
+  --overlay-white-90: rgba(255, 255, 255, 0.9);
   --overlay-black-40: rgba(0, 0, 0, 0.4);
   --overlay-black-50: rgba(0, 0, 0, 0.5);
   --overlay-black-60: rgba(0, 0, 0, 0.6);
@@ -78,8 +81,8 @@
   /* Gradient */
   --gradient-fourth: linear-gradient(to right, var(--fourth-50), var(--fourth-100));
   --gradient-mobile-menu: linear-gradient(180deg, var(--primary) 0%, var(--primary-light) 100%);
-  --gradient-black-light: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
-  --gradient-black-dark: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+  --gradient-black-light: linear-gradient(to right, var(--overlay-black-60), var(--overlay-black-40));
+  --gradient-black-dark: linear-gradient(to right, var(--overlay-black-80), var(--overlay-black-60));
 
   /* Font */
   --font-primary: "Montserrat", sans-serif;
@@ -150,4 +153,8 @@ h3 {
 .text-fourth:hover {
   color: var(--fourth-hover);
   transition: color 0.3s ease;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(360deg, var(--primary-bg) 49.44%, var(--primary-50-bg) 100%);
 }
