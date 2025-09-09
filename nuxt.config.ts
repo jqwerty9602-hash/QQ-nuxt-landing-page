@@ -134,41 +134,31 @@ export default defineNuxtConfig({
       gzip: true,
       brotli: true,
     },
-    nitro: {
-      prerender: {
-        routes: ["/"],
-        crawlLinks: false,
+    routeRules: {
+      "/": {
+        prerender: true,
+        headers: {
+          "Cache-Control": "max-age=3600",
+        },
       },
-      compressPublicAssets: {
-        gzip: true,
-        brotli: true,
+      "/api/**": {
+        headers: {
+          "X-Robots-Tag": "noindex",
+          "Cache-Control": "no-cache",
+        },
       },
-      routeRules: {
-        "/": {
-          prerender: true,
-          headers: {
-            "Cache-Control": "max-age=3600",
-          },
+      "/admin/**": {
+        headers: {
+          "X-Robots-Tag": "noindex, nofollow",
+          "Cache-Control": "no-cache",
         },
-        "/api/**": {
-          headers: {
-            "X-Robots-Tag": "noindex",
-            "Cache-Control": "no-cache",
-          },
-        },
-        "/admin/**": {
-          headers: {
-            "X-Robots-Tag": "noindex, nofollow",
-            "Cache-Control": "no-cache",
-          },
-        },
-        "/**": {
-          headers: {
-            "X-Content-Type-Options": "nosniff",
-            "X-Frame-Options": "DENY",
-            "X-XSS-Protection": "1; mode=block",
-            "Referrer-Policy": "strict-origin-when-cross-origin",
-          },
+      },
+      "/**": {
+        headers: {
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "DENY",
+          "X-XSS-Protection": "1; mode=block",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
         },
       },
     },
