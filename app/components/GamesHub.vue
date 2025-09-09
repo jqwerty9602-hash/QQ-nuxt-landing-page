@@ -292,13 +292,12 @@ onUnmounted(() => stopAutoAdvance());
 }
 
 .page-active {
-  background: var(--gradient-fourth);
+  background: var(--primary-100-bg);
   transform: scale(1.4);
-  box-shadow: var(--shadow-fourth);
 }
 
 .page-inactive {
-  background: var(--overlay-white-30);
+  background: var(--gray);
   transition: all 0.3s ease;
 }
 

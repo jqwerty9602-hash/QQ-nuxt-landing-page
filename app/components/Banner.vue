@@ -2,11 +2,11 @@
   <div class="banner-section">
     <div class="banner-content">
       <!-- Logo -->
-      <div class="mb-6 mt-12 md:mt-0">
+      <div class="mb-6 mt-12 md:mt-10">
         <img
           src="/logo.png"
           alt="QQFun Logo"
-          class="h-20 w-auto md:h-24 lg:h-28"
+          class="h-auto w-80 md:w-100"
           loading="eager"
         />
       </div>
@@ -34,7 +34,7 @@
 <style scoped>
 .banner-section {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   background-image: url("/images/home-banner-bg.png");
   background-color: var(--primary-deep);
@@ -53,20 +53,5 @@
   justify-content: center;
   text-align: center;
   padding: 1rem;
-}
-
-/* Preload the background image */
-.banner-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("/images/home-banner-bg.png");
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-  opacity: 0;
 }
 </style>

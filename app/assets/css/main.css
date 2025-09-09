@@ -51,6 +51,7 @@
   --neutral-50: #f9fafb;
   --neutral-100: #3e3e3e;
   --white: #ffffff;
+  --gray: #D9D9D9;
   --black: #000000;
 
   /* Background */
@@ -58,6 +59,7 @@
   --btn-bg: #4b2ee7;
   --primary-bg: #0D0027;
   --primary-50-bg: #260E53;
+  --primary-100-bg: #8A38F5;
 
   /* Overlay */
   --overlay-white-10: rgba(255, 255, 255, 0.1);
