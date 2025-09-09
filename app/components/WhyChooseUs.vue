@@ -1,9 +1,9 @@
 <template>
   <section class="bg-primary-deep flex items-center">
-    <div class="mx-4 md:mx-24 pt-20 pb-4 md:pt-30 md:pb-30">
+    <div class="mx-4 md:mx-10">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Left Column - Content -->
-        <div class="space-y-12">
+        <div class="mt-20 -mb-20 md:mt-26 md:-mb-26 lg:mt-26 lg:mb-26 space-y-12">
           <!-- Section Title -->
           <h2 class="text-fourth mb-12">Why Choose QQFUN?</h2>
 
@@ -20,7 +20,7 @@
               <h3 class="text-xl md:text-2xl font-semibold mb-3">
                 Casual & Fun
               </h3>
-              <p class=" text-base md:text-lg leading-relaxed">
+              <p class="text-base md:text-lg leading-relaxed">
                 Our games are simple, quick and enjoyable – perfect for coffee
                 breaks, winding down after work, or just when you want a spark
                 of fun.
@@ -39,7 +39,7 @@
             </div>
             <div class="flex-1">
               <h3 class="text-xl md:text-2xl font-semibold mb-3">Rewarding</h3>
-              <p class=" text-base md:text-lg leading-relaxed">
+              <p class="text-base md:text-lg leading-relaxed">
                 We believe playtime should give something back. That's why QQFUN
                 turns your spins and taps into real rewards.
               </p>
@@ -59,7 +59,7 @@
               <h3 class="text-xl md:text-2xl font-semibold text-white mb-3">
                 Trusted
               </h3>
-              <p class=" text-base md:text-lg leading-relaxed">
+              <p class="text-base md:text-lg leading-relaxed">
                 Built with fairness and safety in mind. No tricks, no stress –
                 just pure fun in a reliable environment.
               </p>
@@ -68,12 +68,12 @@
         </div>
 
         <!-- Right Column - Mascot Image -->
-        <div class="flex justify-center lg:justify-center">
+        <div class="flex justify-center">
           <div class="relative">
             <img
               src="/images/3D-Mascot.png"
               alt="QQFUN 3D Mascot"
-              class="w-full h-auto -mt-20 md:mt-0"
+              class="w-full"
             />
           </div>
         </div>

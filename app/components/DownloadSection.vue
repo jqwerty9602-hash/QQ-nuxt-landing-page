@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full custom-gradient-bg py-26 justify-items-center">
+    <div class="w-full custom-gradient-bg py-20 md:py-26 justify-items-center">
         <div class="mx-6 px-4">
             <div class="flex flex-col lg:flex-row items-center gap-0 lg:gap-16">
                 <!-- Left Side: QQFun Logo -->

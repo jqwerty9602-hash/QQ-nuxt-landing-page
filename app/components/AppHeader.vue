@@ -1,6 +1,6 @@
 <template>
   <header class="header-container">
-    <div class="mx-4 md:mx-24">
+    <div class="mx-4 md:mx-10">
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
         <div class="flex-shrink-0">
@@ -133,7 +133,7 @@ onMounted(() => {
   z-index: 50;
   background: var(--header-bg);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--white-overlay-light);
+  border-bottom: 1px solid var(--primary-light);
   box-shadow: var(--shadow-header);
 }
 
