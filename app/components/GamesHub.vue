@@ -1,7 +1,7 @@
 <template>
   <div class="games-hub-section">
     <div class="relative z-10 py-20 md:py-26 rounded-lg mx-4 md:mx-30 lg:mx-30 xl:mx-40">
-      <h2 class="text-center mb-4 text-2xl sm:text-5xl:!text-6xl">Games Hub</h2>
+      <h2 class="text-center mb-4 text-2xl sm:text-6xl">Games Hub</h2>
       <p class="text-center text-base md:text-2xl mb-12">
         Discover all your favorite games in one fun spot!
       </p>
