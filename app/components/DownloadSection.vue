@@ -1,0 +1,71 @@
+<template>
+    <div class="w-full custom-gradient-bg py-26 justify-items-center">
+        <div class="mx-6 px-4">
+            <div class="flex flex-col lg:flex-row items-center gap-0 lg:gap-16">
+                <!-- Left Side: QQFun Logo -->
+                <div>
+                    <img 
+                        src="/images/QQFun-logo.png" 
+                        alt="QQFun Logo" 
+                        class="w-64 h-auto lg:w-80"
+                        width="320"
+                        height="200"
+                        loading="lazy"
+                    />
+                </div>
+
+                <!-- Right Side: Download Content -->
+                <div class="flex-1 text-center lg:text-left">
+                    <!-- Download Title -->
+                    <h2 class="mb-8 !text-white h2-montserrat">
+                        Download QQFUN Now
+                    </h2>
+
+                    <!-- Download Buttons -->
+                    <div class="flex flex-row gap-4 justify-center lg:justify-start mt-5">
+                        <!-- App Store Button -->
+                        <a href="#" class="download-button">
+                            <img 
+                                src="/images/Download-AppStore.png" 
+                                alt="Download on App Store"
+                                class="h-auto w-90 lg:w-60 hover:scale-105 transition-transform duration-300"
+                                width="240"
+                                height="80"
+                                loading="lazy"
+                            />
+                        </a>
+
+                        <!-- Google Play Button -->
+                        <a href="#" class="download-button">
+                            <img 
+                                src="/images/Download-GooglePlay.png" 
+                                alt="Download on Google Play"
+                                class="h-auto w-90 lg:w-60 hover:scale-105 transition-transform duration-300"
+                                width="240"
+                                height="80"
+                                loading="lazy"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style scoped>
+.download-button {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.download-button:hover {
+    transform: translateY(-2px);
+}
+
+/* Montserrat heading utility */
+.h2-montserrat {
+  font-family: var(--font-montserrat) !important;
+  font-weight: 800 !important;
+}
+</style>

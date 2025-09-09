@@ -1,0 +1,189 @@
+[
+    {
+        "name": "Gummy Crush",
+        "id": 2,
+        "description": "Sweet wins await in this candy-filled adventure",
+        "image": "/game/cover_gummy.png",
+        "url": "https://gummycrush.walk2mercury.xyz",
+        "tags": ["Candy", "Sweet", "Colorful", "Casual"],
+        "releaseDate": "2024-08-22",
+        "rtp": 97.2,
+        "features": [
+            "Cascading Reels",
+            "Multipliers",
+            "Bonus Rounds",
+            "Sweet Bonuses"
+        ]
+    },
+    {
+        "name": "Highway King",
+        "id": 3,
+        "description": "Race to riches on the digital highway",
+        "image": "/game/cover_highway.png",
+        "url": "https://highway.walk2mercury.xyz",
+        "tags": ["Racing", "Highway", "Speed", "Trucks"],
+        "releaseDate": "2023-12-10",
+        "rtp": 96.5,
+        "features": [
+            "Gamble Feature",
+            "Wild Substitutions",
+            "Scatter Wins",
+            "Risk Game"
+        ]
+    },
+    {
+        "name": "PAO MA",
+        "id": 12,
+        "description": "Ancient tiles meet modern wins",
+        "image": "/game/cover_paoma.png",
+        "url": "https://paoma.walk2mercury.xyz",
+        "tags": ["Mahjong", "Traditional", "Tiles", "Asian"],
+        "releaseDate": "2023-06-18",
+        "rtp": 95.8,
+        "features": [
+            "Tile Matching",
+            "Bonus Tiles",
+            "Progressive Jackpot",
+            "Traditional Gameplay"
+        ]
+    },
+    {
+        "name": "Mahjong Legend",
+        "id": 4,
+        "description": "Ancient tiles meet modern wins",
+        "image": "/game/cover_mahjong.png",
+        "url": "https://mahjong.walk2mercury.xyz",
+        "tags": ["Mahjong", "Traditional", "Tiles", "Asian"],
+        "releaseDate": "2023-06-18",
+        "rtp": 95.8,
+        "features": [
+            "Tile Matching",
+            "Bonus Tiles",
+            "Progressive Jackpot",
+            "Traditional Gameplay"
+        ]
+    },
+    {
+        "name": "Need For Spin",
+        "id": 5,
+        "description": "High-octane spins for maximum thrills",
+        "image": "/game/cover_spin.png",
+        "url": "https://need4spin.walk2mercury.xyz",
+        "tags": ["Racing", "High Speed", "Adrenaline", "Cars"],
+        "releaseDate": "2024-10-05",
+        "rtp": 97.1,
+        "features": [
+            "Turbo Mode",
+            "Speed Bonuses",
+            "Racing Wilds",
+            "High Volatility"
+        ]
+    },
+    {
+        "name": "Fat Fat",
+        "id": 9,
+        "description": "Chubby characters bring big wins and endless fun",
+        "image": "/game/cover_fatfat.png",
+        "url": "https://fatfat.walk2mercury.xyz",
+        "tags": ["Fun", "Chubby", "Comedy", "Big Wins"],
+        "releaseDate": "2024-04-15",
+        "rtp": 96.3,
+        "features": [
+            "Big Win Bonuses",
+            "Chubby Wilds",
+            "Comedy Rounds",
+            "Fat Jackpots"
+        ]
+    },
+    {
+        "name": "QI Lin",
+        "id": 1,
+        "description": "Navigate through cosmic adventures in this space-themed slot",
+        "image": "/game/placeholder.png",
+        "url": "https://qilin.walk2mercury.xyz",
+        "tags": ["Space", "Cosmic", "Slot", "Adventure"],
+        "releaseDate": "2024-11-15",
+        "rtp": 96.8,
+        "features": ["Free Spins", "Wild Symbols", "Scatter Bonus", "Auto Play"]
+    },
+    {
+        "name": "Wild Bandito",
+        "id": 10,
+        "description": "Outlaw adventures in the wild west with bandit treasures",
+        "image": "/game/placeholder.png",
+        "url": "https://wildbandito.walk2mercury.xyz",
+        "tags": ["Western", "Outlaw", "Wild West", "Bandit"],
+        "releaseDate": "2023-11-30",
+        "rtp": 96.6,
+        "features": [
+            "Bandit Bonus",
+            "Wild Shootouts",
+            "Treasure Hunt",
+            "Outlaw Spins"
+        ]
+    },
+    {
+        "name": "Fortune Mouse",
+        "id": 6,
+        "description": "Lucky mouse brings prosperity and golden treasures",
+        "image": "/game/placeholder.png",
+        "url": "https://fortunemouse.walk2mercury.xyz",
+        "tags": ["Fortune", "Mouse", "Luck", "Gold"],
+        "releaseDate": "2024-03-20",
+        "rtp": 96.9,
+        "features": [
+            "Lucky Spins",
+            "Golden Wilds",
+            "Fortune Wheel",
+            "Treasure Bonus"
+        ]
+    },
+    {
+        "name": "Fortune Ox",
+        "id": 7,
+        "description": "Powerful ox brings fortune and abundance",
+        "image": "/game/placeholder.png",
+        "url": "https://fortuneox.walk2mercury.xyz",
+        "tags": ["Fortune", "Ox", "Power", "Abundance"],
+        "releaseDate": "2024-02-12",
+        "rtp": 97.0,
+        "features": [
+            "Ox Power",
+            "Fortune Multipliers",
+            "Abundance Bonus",
+            "Mega Wins"
+        ]
+    },
+    {
+        "name": "Fortune Rabbit",
+        "id": 8,
+        "description": "Swift rabbit hops to incredible wins and luck",
+        "image": "/game/placeholder.png",
+        "url": "https://fortunerabbit.walk2mercury.xyz",
+        "tags": ["Fortune", "Rabbit", "Swift", "Luck"],
+        "releaseDate": "2024-01-08",
+        "rtp": 96.7,
+        "features": [
+            "Rabbit Leap",
+            "Lucky Hops",
+            "Fortune Trails",
+            "Swift Bonuses"
+        ]
+    },
+    {
+        "name": "Fortune Tiger",
+        "id": 11,
+        "description": "Fierce tiger brings royal fortune and majestic wins",
+        "image": "/game/placeholder.png",
+        "url": "https://fortunetiger.walk2mercury.xyz",
+        "tags": ["Fortune", "Tiger", "Royal", "Majestic"],
+        "releaseDate": "2023-09-25",
+        "rtp": 97.3,
+        "features": [
+            "Tiger Roar",
+            "Royal Fortune",
+            "Majestic Multipliers",
+            "King of Jungle Bonus"
+        ]
+    }
+]
