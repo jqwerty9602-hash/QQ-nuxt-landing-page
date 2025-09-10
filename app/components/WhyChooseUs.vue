@@ -25,7 +25,7 @@
                 class="flex items-start text-center sm:text-left mb-8 sm:mb-10"
               >
                 <div
-                  class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5"
+                  class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-[8px]"
                 >
                   <img
                     src="/images/QQ-Coins.png"
@@ -40,7 +40,7 @@
                     Casual & Fun
                   </h3>
                   <p
-                    class="text-base sm:text-lg md:text-2xl lg:text-2xl leading-relaxed sm:mt-3 md:-ml-12"
+                    class="text-base sm:text-lg md:text-2xl lg:text-2xl leading-[22px] sm:leading-relaxed sm:mt-3 md:-ml-12"
                   >
                     Our games are simple, quick and enjoyable – perfect for
                     coffee breaks, winding down after work, or just when you
@@ -54,7 +54,7 @@
                 class="flex items-start text-center sm:text-left mb-8 sm:mb-10"
               >
                 <div
-                  class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5"
+                  class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-[8px]"
                 >
                   <img
                     src="/images/QQ-Coins.png"
@@ -68,8 +68,8 @@
                   >
                     Rewarding
                   </h3>
-                   <p
-                    class="text-base sm:text-lg md:text-2xl lg:text-2xl leading-relaxed sm:mt-3 md:-ml-12"
+                  <p
+                    class="text-base sm:text-lg md:text-2xl lg:text-2xl leading-[22px] sm:leading-relaxed sm:mt-3 md:-ml-12"
                   >
                     We believe playtime should give something back. That's why
                     QQFUN turns your spins and taps into real rewards.
@@ -82,7 +82,7 @@
                 class="flex items-start text-center sm:text-left mb-8 sm:mb-10"
               >
                 <div
-                  class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5"
+                  class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-[8px]"
                 >
                   <img
                     src="/images/QQ-Coins.png"
@@ -96,8 +96,8 @@
                   >
                     Trusted
                   </h3>
-                   <p
-                    class="text-base sm:text-lg md:text-2xl lg:text-2xl leading-relaxed sm:mt-3 md:-ml-12"
+                  <p
+                    class="text-base sm:text-lg md:text-2xl lg:text-2xl leading-[22px] sm:leading-relaxed sm:mt-3 md:-ml-12"
                   >
                     Built with fairness and safety in mind. No tricks, no stress
                     – just pure fun in a reliable environment.
