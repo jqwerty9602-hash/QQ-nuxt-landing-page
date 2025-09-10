@@ -22,11 +22,11 @@
               <div
                 class="flex items-start text-center sm:text-left mb-8 sm:mb-10"
               >
-                <div class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0">
+                <div class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5">
                   <img
                     src="/images/QQ-Coins.png"
                     alt="QQ Coins"
-                    class="w-8 h-8 sm:w-8 sm:h-8 md:h-10 md:w-10"
+                    class="w-8 h-8 sm:w-8 sm:h-8 md:h-8 md:w-8"
                   />
                 </div>
                 <div class="flex-1 sm:ml-3">
@@ -47,11 +47,11 @@
               <div
                 class="flex items-start text-center sm:text-left mb-8 sm:mb-10"
               >
-                <div class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0">
+                  <div class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5">
                   <img
                     src="/images/QQ-Coins.png"
                     alt="QQ Coins"
-                    class="w-8 h-8 sm:w-8 sm:h-8 md:h-10 md:w-10"
+                    class="w-8 h-8 sm:w-8 sm:h-8 md:h-8 md:w-8"
                   />
                 </div>
                 <div class="flex-1 sm:ml-3">
@@ -73,11 +73,11 @@
               <div
                 class="flex items-start text-center sm:text-left mb-8 sm:mb-10"
               >
-                <div class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0">
+                <div class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5">
                   <img
                     src="/images/QQ-Coins.png"
                     alt="QQ Coins"
-                    class="w-8 h-8 sm:w-8 sm:h-8 md:h-10 md:w-10"
+                    class="w-8 h-8 sm:w-8 sm:h-8 md:h-8 md:w-8"
                   />
                 </div>
                 <div class="flex-1 sm:ml-3">
