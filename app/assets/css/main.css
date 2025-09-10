@@ -149,6 +149,13 @@ h3 {
   transform: translateY(-2px);
 }
 
+@media (max-width: 767px) {
+  .btn-main {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+  }
+}
+
 .bg-gradient-primary {
   background: linear-gradient(360deg, var(--primary-bg) 49.44%, var(--primary-50-bg) 100%);
 }

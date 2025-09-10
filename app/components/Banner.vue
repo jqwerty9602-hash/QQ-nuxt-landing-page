@@ -6,18 +6,18 @@
         <img
           src="/logo.png"
           alt="QQFun Logo"
-          class="h-auto w-80 md:w-100"
+          class="h-auto w-50 md:w-100"
           loading="eager"
         />
       </div>
 
       <!-- Description Text -->
       <div class="mx-lg mb-8">
-        <p class="md:text-2xl text-white leading-relaxed">
+        <p class="text-sm md:text-2xl text-white leading-relaxed">
           QQFUN is a vibrant game platform that turns playtime into real
           rewards.
         </p>
-        <p class="md:text-2xl text-white leading-relaxed">
+        <p class="text-sm md:text-2xl text-white leading-relaxed">
           It blends casual gaming with the thrill of earning, all in a fun,
           trustworthy environment.
         </p>

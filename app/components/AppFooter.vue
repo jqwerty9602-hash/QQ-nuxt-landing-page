@@ -29,23 +29,26 @@
       </div>
 
       <!-- Disclaimer Text -->
-      <p class="mt-6 md:mt-4 text-center font-light text-white/90">
+      <p class="mt-6 md:mt-4 text-center font-light text-white/90 text-[12px] md:text-base">
         This game belongs to board & card entertainment. Some in-game content or
         services may require additional payment.
       </p>
-      <p class="text-center font-light text-white/90">
+      <p class="text-center font-light text-white/90  text-[10px] md:text-base">
         Please play responsibly, avoid addiction, and refrain from using the
         game for gambling or any illegal activities.
       </p>
 
       <!-- Copyright Section -->
       <div class="text-center mt-6 pt-6 border-t border-white/10">
-        <p class="text-white/60">
-          © {{ new Date().getFullYear() }}
-          <a href="/" class="text-fourth hover:text-fourth-hover underline transition-colors" rel="noopener noreferrer">
-            Astral Gaming Limited
+        <p class="text-white/60 text-[10px] md:text-base">
+          Copyright © {{ new Date().getFullYear() }}
+          <a
+            href="/"
+            class="text-fourth hover:text-fourth-hover underline transition-colors"
+          >
+            Astral Gaming Limited.
           </a>
-          <span class="block sm:inline ml-1">All rights reserved.</span>
+          All rights reserved.
         </p>
       </div>
     </div>
@@ -54,9 +57,9 @@
 
 <script setup lang="ts">
 interface SocialLink {
-  name: string
-  url: string
-  icon: string
+  name: string;
+  url: string;
+  icon: string;
 }
 
 const socialLinks: SocialLink[] = [
@@ -101,7 +104,7 @@ const socialLinks: SocialLink[] = [
     min-width: 2.5rem;
     min-height: 2.5rem;
   }
-  
+
   .social-icon img {
     width: 1.75rem;
     height: 1.75rem;
@@ -114,7 +117,7 @@ const socialLinks: SocialLink[] = [
     min-width: 2rem;
     min-height: 2rem;
   }
-  
+
   .social-icon img {
     width: 1.5rem;
     height: 1.5rem;
