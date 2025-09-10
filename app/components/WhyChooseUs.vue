@@ -14,7 +14,9 @@
             <!-- Content (Above Background) -->
             <div class="content-wrapper">
               <!-- Section Title -->
-              <h2 class="text-2xl sm:text-5xl text-fourth mb-12 text-center lg:text-left">
+              <h2
+                class="text-2xl sm:text-5xl text-fourth mb-12 text-center lg:text-left"
+              >
                 Why Choose QQFUN?
               </h2>
 
@@ -22,7 +24,9 @@
               <div
                 class="flex items-start text-center sm:text-left mb-8 sm:mb-10"
               >
-                <div class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5">
+                <div
+                  class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5"
+                >
                   <img
                     src="/images/QQ-Coins.png"
                     alt="QQ Coins"
@@ -31,11 +35,13 @@
                 </div>
                 <div class="flex-1 sm:ml-3">
                   <h3
-                    class="!text-[15px] sm:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
+                    class="text-lg sm:text-xl md:text-[26px] lg:text-[26px] leading-relaxed sm:mt-3 md:ml-0"
                   >
                     Casual & Fun
                   </h3>
-                  <p class="!text-[15px] sm:!text-2xl leading-relaxed sm:mt-3 md:-ml-12">
+                  <p
+                    class="text-base sm:text-lg md:text-2xl lg:text-2xl leading-relaxed sm:mt-3 md:-ml-12"
+                  >
                     Our games are simple, quick and enjoyable – perfect for
                     coffee breaks, winding down after work, or just when you
                     want a spark of fun.
@@ -47,7 +53,9 @@
               <div
                 class="flex items-start text-center sm:text-left mb-8 sm:mb-10"
               >
-                  <div class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5">
+                <div
+                  class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5"
+                >
                   <img
                     src="/images/QQ-Coins.png"
                     alt="QQ Coins"
@@ -56,12 +64,12 @@
                 </div>
                 <div class="flex-1 sm:ml-3">
                   <h3
-                   class="!text-[15px] sm:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
+                    class="text-lg sm:text-xl md:text-[26px] lg:text-[26px] leading-relaxed sm:mt-3 md:ml-0"
                   >
                     Rewarding
                   </h3>
-                  <p
-                    class="!text-[15px] sm:!text-2xl md:text-lg leading-relaxed sm:mt-3 md:-ml-12"
+                   <p
+                    class="text-base sm:text-lg md:text-2xl lg:text-2xl leading-relaxed sm:mt-3 md:-ml-12"
                   >
                     We believe playtime should give something back. That's why
                     QQFUN turns your spins and taps into real rewards.
@@ -73,7 +81,9 @@
               <div
                 class="flex items-start text-center sm:text-left mb-8 sm:mb-10"
               >
-                <div class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5">
+                <div
+                  class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-1.5"
+                >
                   <img
                     src="/images/QQ-Coins.png"
                     alt="QQ Coins"
@@ -82,12 +92,12 @@
                 </div>
                 <div class="flex-1 sm:ml-3">
                   <h3
-                    class="!text-[15px] sm:!text-2xl font-semibold mb-1 sm:mb-0 sm:mt-3"
+                    class="text-lg sm:text-xl md:text-[26px] lg:text-[26px] leading-relaxed sm:mt-3 md:ml-0"
                   >
                     Trusted
                   </h3>
-                  <p
-                    class="!text-[15px] sm:!text-2xl leading-relaxed sm:mt-3 md:-ml-12"
+                   <p
+                    class="text-base sm:text-lg md:text-2xl lg:text-2xl leading-relaxed sm:mt-3 md:-ml-12"
                   >
                     Built with fairness and safety in mind. No tricks, no stress
                     – just pure fun in a reliable environment.
@@ -132,7 +142,7 @@
 /* Mobile background - main breakpoint */
 @media (max-width: 767px) {
   .content-container {
-    min-height: 85vh;
+    min-height: 95vh;
     padding: 1rem 1.5rem;
   }
 
