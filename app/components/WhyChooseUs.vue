@@ -28,7 +28,7 @@
                   class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-[8px]"
                 >
                   <img
-                    src="/images/QQ-Coins.png"
+                    src="/svg/Q-Coins.svg"
                     alt="QQ Coins"
                     class="w-8 h-8 sm:w-8 sm:h-8 md:h-8 md:w-8"
                   />
@@ -57,7 +57,7 @@
                   class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-[8px]"
                 >
                   <img
-                    src="/images/QQ-Coins.png"
+                    src="/svg/Q-Coins.svg"
                     alt="QQ Coins"
                     class="w-8 h-8 sm:w-8 sm:h-8 md:h-8 md:w-8"
                   />
@@ -85,7 +85,7 @@
                   class="flex-shrink-0 mx-auto sm:mx-0 mb-3 sm:mb-0 md:pt-[8px]"
                 >
                   <img
-                    src="/images/QQ-Coins.png"
+                    src="/svg/Q-Coins.svg"
                     alt="QQ Coins"
                     class="w-8 h-8 sm:w-8 sm:h-8 md:h-8 md:w-8"
                   />

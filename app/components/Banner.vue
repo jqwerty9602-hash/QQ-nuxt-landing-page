@@ -4,9 +4,9 @@
       <!-- Logo -->
       <div class="mb-6 mt-12 md:mt-10">
         <img
-          src="/logo.png"
+          src="/svg/QQF-logo-03.svg"
           alt="QQFun Logo"
-          class="h-auto w-50 md:w-100"
+          class="h-auto w-70 md:w-100"
           loading="eager"
         />
       </div>
@@ -24,9 +24,7 @@
       </div>
 
       <!-- Play Now Button -->
-      <NuxtLink to="#games-hub" class="btn-main">
-        Play Now
-      </NuxtLink>
+      <NuxtLink to="#games-hub" class="btn-main"> Play Now </NuxtLink>
     </div>
   </div>
 </template>

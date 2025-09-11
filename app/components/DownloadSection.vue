@@ -22,11 +22,11 @@
           </h2>
 
           <!-- Download Buttons -->
-          <div class="flex flex-row gap-4 justify-center mt-5">
+          <div class="flex flex-row gap-4 justify-center">
             <!-- App Store Button -->
             <a href="#" class="download-button">
               <img
-                src="/images/Download-AppStore.png"
+                src="/svg/Download-AppStore.svg"
                 alt="Download on App Store"
                 class="h-auto w-70 lg:w-82 hover:scale-105 transition-transform duration-300"
                 loading="lazy"
@@ -36,7 +36,7 @@
             <!-- Google Play Button -->
             <a href="#" class="download-button">
               <img
-                src="/images/Download-GooglePlay.png"
+                src="/svg/Download-GooglePlay.svg"
                 alt="Download on Google Play"
                 class="h-auto w-70 lg:w-82 hover:scale-105 transition-transform duration-300"
                 loading="lazy"

@@ -9,9 +9,9 @@
             class="flex items-center text-white text-xl font-bold hover:text-blue-100 transition-colors"
           >
             <img
-              src="/logo.png"
-              alt="QQFun"
-              class="h-9 w-auto mr-2"
+              src="/svg/QQF-logo-03.svg"
+              alt="QQFun Logo"
+              class="h-18 w-auto"
               width="36"
               height="36"
               loading="eager"

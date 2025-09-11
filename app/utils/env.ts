@@ -13,7 +13,7 @@ export const env = {
   NUXT_SITE_COUNTRY: 'Malaysia',
   
   // Asset paths
-  OG_IMAGE: '/logo.png', // image display when shared to social media
+  OG_IMAGE: '/svg/QQF-logo-03.svg', // image display when shared to social media
   FAVICON_PATH: '/favicon.ico',
   APPLE_TOUCH_ICON: '/apple-touch-icon-72x72.png', //bookmark or add to user's homescreen
   
