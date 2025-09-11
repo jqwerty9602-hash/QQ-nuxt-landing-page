@@ -5,7 +5,7 @@
         <!-- Left Side: QQFun Logo -->
         <div class="mb-3 md:mb-0">
           <img
-            src="/svg/QQF-logo-01.svg"
+            src="/svg/QQF-logo.svg"
             alt="QQFun Logo"
             class="w-45 h-auto md:w-80"
             loading="lazy"
@@ -17,7 +17,7 @@
           class="flex-1 flex flex-col justify-center items-center lg:items-center"
         >
           <!-- Download Title -->
-          <h2 class="text-2xl sm:text-5xl mb-8 !text-white text-center h2-montserrat">
+          <h2 class="text-2xl sm:text-5xl mb-4 !text-white text-center h2-montserrat">
             Download QQFUN Now
           </h2>
 
