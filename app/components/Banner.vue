@@ -2,11 +2,11 @@
   <div class="banner-section">
     <div class="banner-content">
       <!-- Logo -->
-      <div class="mb-6 mt-12 md:mt-10">
+      <div class="mb-0 mt-12 md:mt-10">
         <img
           src="/svg/QQF-logo-03.svg"
           alt="QQFun Logo"
-          class="h-auto w-70 md:w-100"
+          class="h-auto w-100 md:w-120"
           loading="eager"
         />
       </div>

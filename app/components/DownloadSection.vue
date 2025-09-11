@@ -3,11 +3,11 @@
     <div class="ml-4 mr-4 md:mr-14">
       <div class="flex flex-col lg:flex-row items-center gap-0 lg:gap-16">
         <!-- Left Side: QQFun Logo -->
-        <div>
+        <div class="mb-3 md:mb-0">
           <img
-            src="/images/QQFun-logo.png"
+            src="/svg/QQF-logo-01.svg"
             alt="QQFun Logo"
-            class="w-74 h-auto md:w-100"
+            class="w-45 h-auto md:w-80"
             loading="lazy"
           />
         </div>

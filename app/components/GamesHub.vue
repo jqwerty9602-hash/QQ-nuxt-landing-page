@@ -230,6 +230,8 @@ onUnmounted(() => stopAutoAdvance());
   transition: all 0.5s ease;
   touch-action: pan-y; /* Allow vertical scrolling but enable horizontal swipe detection */
   user-select: none; /* Prevent text selection during swipe */
+  -webkit-user-select: none; /* Safari */
+  -webkit-touch-callout: none; /* iOS Safari */
 }
 
 .game-card {
