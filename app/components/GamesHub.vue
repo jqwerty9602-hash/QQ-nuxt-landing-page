@@ -30,44 +30,46 @@
           </div>
         </div>
 
-        <!-- Navigation Arrows -->
-        <button
-          v-if="currentPage > 0"
-          @click="prevPage"
-          @mouseenter="pauseOnNavigation"
-          @mouseleave="resumeOnNavigation"
-          class="nav-arrow left-2"
-        >
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-          </svg>
-        </button>
-
-        <button
-          v-if="currentPage < totalPages - 1"
-          @click="nextPage"
-          @mouseenter="pauseOnNavigation"
-          @mouseleave="resumeOnNavigation"
-          class="nav-arrow right-2"
-        >
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-          </svg>
-        </button>
-
-        <!-- Page Indicators -->
+        <!-- Navigation Controls Container -->
         <div
-          class="flex justify-center mt-8 space-x-2"
+          class="navigation-controls flex items-center justify-center mt-8"
           @mouseenter="pauseOnNavigation"
           @mouseleave="resumeOnNavigation"
         >
+          <!-- Left Arrow -->
           <button
-            v-for="page in totalPages"
-            :key="page - 1"
-            @click="goToPage(page - 1)"
-            class="page-indicator"
-            :class="currentPage === page - 1 ? 'page-active' : 'page-inactive'"
-          />
+            v-if="currentPage > 0"
+            @click="prevPage"
+            class="nav-arrow-inline"
+          >
+            <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            </svg>
+          </button>
+          <div v-else class="nav-arrow-placeholder"></div>
+
+          <!-- Page Indicators -->
+          <div class="flex justify-center space-x-2 mx-4 md:mx-6">
+            <button
+              v-for="page in totalPages"
+              :key="page - 1"
+              @click="goToPage(page - 1)"
+              class="page-indicator"
+              :class="currentPage === page - 1 ? 'page-active' : 'page-inactive'"
+            />
+          </div>
+
+          <!-- Right Arrow -->
+          <button
+            v-if="currentPage < totalPages - 1"
+            @click="nextPage"
+            class="nav-arrow-inline"
+          >
+            <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </button>
+          <div v-else class="nav-arrow-placeholder"></div>
         </div>
 
         <!-- Page Counter -->
@@ -226,6 +228,8 @@ onUnmounted(() => stopAutoAdvance());
   grid-template-columns: repeat(5, 1fr);
   gap: clamp(12px, 1vw, 1rem);
   transition: all 0.5s ease;
+  touch-action: pan-y; /* Allow vertical scrolling but enable horizontal swipe detection */
+  user-select: none; /* Prevent text selection during swipe */
 }
 
 .game-card {
@@ -257,15 +261,16 @@ onUnmounted(() => stopAutoAdvance());
   transition: color 0.3s ease;
 }
 
-.nav-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 20;
+.navigation-controls {
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-arrow-inline {
   background: var(--gradient-black-light);
   backdrop-filter: blur(4px);
   color: var(--white);
-  padding: 0.75rem;
+  padding: 0.5rem;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -274,12 +279,20 @@ onUnmounted(() => stopAutoAdvance());
   align-items: center;
   justify-content: center;
   box-shadow: var(--shadow-sm);
+  width: 2rem;
+  height: 2rem;
 }
 
-.nav-arrow:hover {
+.nav-arrow-inline:hover {
   background: var(--gradient-black-dark);
-  transform: translateY(-50%) scale(1.1);
+  transform: scale(1.1);
   box-shadow: var(--shadow-lg);
+}
+
+.nav-arrow-placeholder {
+  width: 2rem;
+  height: 2rem;
+  /* Invisible placeholder to maintain spacing */
 }
 
 .page-indicator {
@@ -323,11 +336,31 @@ onUnmounted(() => stopAutoAdvance());
 
 @media (max-width: 768px) {
   .games-grid { grid-template-columns: repeat(3, 1fr); }
+  .nav-arrow-inline { 
+    padding: 0.6rem; 
+    width: 2.5rem; 
+    height: 2.5rem; 
+  }
+  .nav-arrow-placeholder {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 
 @media (max-width: 480px) {
   .games-grid { grid-template-columns: repeat(2, 1fr); }
-  .nav-arrow { padding: 0.5rem; width: 2.25rem; height: 2.25rem; }
-  .nav-arrow svg { width: 1.25rem; height: 1.25rem; }
+  .nav-arrow-inline { 
+    padding: 0.5rem; 
+    width: 2.25rem; 
+    height: 2.25rem; 
+  }
+  .nav-arrow-placeholder {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  .navigation-controls .mx-4 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
 }
 </style>
