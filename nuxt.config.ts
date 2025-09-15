@@ -95,7 +95,6 @@ export default defineNuxtConfig({
       link: [
         { rel: "icon", type: "image/x-icon", href: env.FAVICON_PATH },
         { rel: "canonical", href: siteUrl },
-        { rel: "apple-touch-icon", href: env.APPLE_TOUCH_ICON },
       ],
     },
   },
