@@ -14,7 +14,7 @@ export const env = {
   
   // Asset paths
   OG_IMAGE: '/svg/QQF-logo-03.svg', // image display when shared to social media
-  FAVICON_PATH: '/favicon.ico',
+  FAVICON_PATH: '/favicon.svg',
   APPLE_TOUCH_ICON: '/apple-touch-icon-72x72.png', //bookmark or add to user's homescreen
   
   // Basic settings
