@@ -38,6 +38,24 @@
         game for gambling or any illegal activities.
       </p>
 
+      <!-- Legal Links -->
+      <div class="flex justify-center items-center gap-2">
+        <NuxtLink
+          to="/privacy-policy"
+          class="text-white/80 hover:text-fourth text-[10px] md:text-base underline transition-colors"
+        >
+          Privacy Policy
+        </NuxtLink>
+        <span class="text-white/40">|</span>
+        <NuxtLink
+          to="/terms-and-conditions"
+          class="text-white/80 hover:text-fourth text-[10px] md:text-base underline transition-colors"
+        >
+          Terms & Conditions
+        </NuxtLink>
+      </div>
+
+
       <!-- Copyright Section -->
       <div class="text-center mt-6 pt-6 border-t border-white/10">
         <p class="text-white/60 text-[10px] md:text-base">

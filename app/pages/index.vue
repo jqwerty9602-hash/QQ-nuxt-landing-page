@@ -1,14 +1,11 @@
 <template>
     <div class=" text-white overflow-x-hidden">
-
-        <AppHeader />
         <main>
             <Banner />
             <WhyChooseUs id="why-us" />
             <GamesHub id="games-hub" />
             <DownloadSection id="download" />
         </main>
-        <AppFooter />
     </div>
 </template>
 

@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
 
-  modules: ["@nuxt/fonts", "@nuxt/image", "@nuxtjs/sitemap", "@nuxtjs/seo"],
+  modules: ["@nuxt/fonts", "@nuxt/image", "@nuxtjs/sitemap", "@nuxtjs/seo", "@nuxt/content"],
 
   fonts: {
     families: [
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      title: `${env.NUXT_SITE_NAME} - Premium Gaming Experience`,
+      title: `${env.NUXT_SITE_NAME}`,
       htmlAttrs: {
         lang: env.DEFAULT_LANGUAGE,
       },
@@ -65,7 +65,7 @@ export default defineNuxtConfig({
         { property: "og:type", content: "website" },
         {
           property: "og:title",
-          content: `${env.NUXT_SITE_NAME} - Premium Gaming Experience`,
+          content: `${env.NUXT_SITE_NAME}`,
         },
         { property: "og:description", content: env.NUXT_SITE_DESCRIPTION },
         { property: "og:url", content: siteUrl },
@@ -77,7 +77,7 @@ export default defineNuxtConfig({
         { name: "twitter:card", content: "summary_large_image" },
         {
           name: "twitter:title",
-          content: `${env.NUXT_SITE_NAME} - Premium Gaming Experience`,
+          content: `${env.NUXT_SITE_NAME}`,
         },
         { name: "twitter:description", content: env.NUXT_SITE_DESCRIPTION },
 

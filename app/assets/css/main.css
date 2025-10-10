@@ -46,6 +46,7 @@
   --fourth-hover: #d4a600;
   --fourth-50: #fbbf24;
   --fourth-100: #f59e0b;
+  --fourth-150: #fff3cd;
 
   /* Neutrals */
   --neutral-50: #f9fafb;
@@ -85,6 +86,7 @@
   --gradient-mobile-menu: linear-gradient(180deg, var(--primary) 0%, var(--primary-light) 100%);
   --gradient-black-light: linear-gradient(to right, var(--overlay-black-60), var(--overlay-black-40));
   --gradient-black-dark: linear-gradient(to right, var(--overlay-black-80), var(--overlay-black-60));
+  --gradient-bg: radial-gradient(ellipse at top, #9d7dd5 0%, #5b3a8f 30%, #3d1f6e 60%, #1a0b2e 100%);
 
   /* Font */
   --font-primary: "Montserrat", sans-serif;
@@ -103,6 +105,8 @@ body {
   font-size: 1rem;
   color: var(--white);
   line-height: 1.5;
+  background-size: cover;
+  background: var(--gradient-bg);
 }
 
 /* Text Styles */

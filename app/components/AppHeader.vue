@@ -1,12 +1,13 @@
 <template>
   <header class="header-container">
-    <div class="mx-4 md:mx-10">
+    <div class="mx-4 md:mx-20">
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
         <div class="flex-shrink-0">
           <NuxtLink
             to="/"
             class="flex items-center text-white text-xl font-bold hover:text-blue-100 transition-colors"
+            @click="handleHomeClick"
           >
             <img
               src="/svg/QQF-logo-03.svg"
@@ -21,7 +22,7 @@
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-4">
-          <button class="menu-link" @click="scrollToTop">Home</button>
+          <button class="menu-link" @click="handleHomeClick">Home</button>
           <button class="menu-link" @click="scrollToSection('why-us')">
             Why Us
           </button>
@@ -51,7 +52,7 @@
     <!-- Mobile Menu Dropdown -->
     <div v-show="mobileMenuOpen" class="mobile-menu-overlay md:hidden">
       <div class="mobile-menu-content">
-        <button class="menu-link-mobile" @click="scrollToTop">Home</button>
+        <button class="menu-link-mobile" @click="handleHomeClick">Home</button>
         <button class="menu-link-mobile" @click="scrollToSection('why-us')">
           Why Us
         </button>
@@ -74,54 +75,52 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+const router = useRouter();
+const route = useRoute();
+const mobileMenuOpen = ref(false);
 
-const mobileMenuOpen = ref<boolean>(false);
-
-const toggleMobileMenu = (): void => {
+const toggleMobileMenu = () => {
   mobileMenuOpen.value = !mobileMenuOpen.value;
 };
 
-const closeMobileMenu = (): void => {
+const closeMobileMenu = () => {
   mobileMenuOpen.value = false;
 };
 
-// Smooth scroll to section
-const scrollToSection = (sectionId: string): void => {
-  const element = document.getElementById(sectionId);
-  if (element) {
-    const headerHeight = 64;
-    const elementPosition = element.offsetTop - headerHeight;
-
-    window.scrollTo({
-      top: elementPosition,
-      behavior: "smooth",
-    });
+const handleHomeClick = (event?: Event) => {
+  closeMobileMenu();
+  
+  if (route.path === '/') {
+    event?.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  } else {
+    router.push('/');
   }
-  closeMobileMenu();
 };
 
-// Scroll to top (Home)
-const scrollToTop = (): void => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
+const scrollToSection = async (sectionId: string) => {
   closeMobileMenu();
-};
-
-// Close mobile menu when clicking outside or on escape key
-onMounted(() => {
-  const handleEscape = (event: KeyboardEvent) => {
-    if (event.key === "Escape") {
-      closeMobileMenu();
+  
+  if (route.path !== '/') {
+    await router.push('/');
+    await nextTick();
+  }
+  
+  setTimeout(() => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - 64,
+        behavior: "smooth",
+      });
     }
-  };
-  document.addEventListener("keydown", handleEscape, { passive: true });
+  }, 50);
+};
 
-  onUnmounted(() => {
-    document.removeEventListener("keydown", handleEscape);
-  });
+onMounted(() => {
+  const handleEscape = (e: KeyboardEvent) => e.key === "Escape" && closeMobileMenu();
+  document.addEventListener("keydown", handleEscape);
+  onUnmounted(() => document.removeEventListener("keydown", handleEscape));
 });
 </script>
 

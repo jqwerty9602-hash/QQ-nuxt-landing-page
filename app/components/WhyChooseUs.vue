@@ -1,6 +1,6 @@
 <template>
   <section class="bg-primary-deep flex items-center">
-    <div class="mx-4 md:mx-10">
+    <div class="mx-4 md:mx-23">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Left Column - Content -->
         <div

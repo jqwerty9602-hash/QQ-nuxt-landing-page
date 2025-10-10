@@ -2,7 +2,7 @@
 export const env = {
   // Core Site Info
   NUXT_PUBLIC_SITE_URL: 'https://qqfun.com',
-  NUXT_SITE_NAME: 'QQFun',
+  NUXT_SITE_NAME: 'QQFun - Premium Gaming Experience',
   NUXT_SITE_DESCRIPTION: 'Premium gaming platform offering secure and entertaining gaming experiences with 24/7 support',
   
   // Required SEO fields
