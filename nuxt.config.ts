@@ -109,6 +109,21 @@ export default defineNuxtConfig({
     autoLastmod: true,
   },
 
+  robots: {
+    rules: [
+      {
+        UserAgent: '*',
+        Allow: '/',
+        Disallow: [
+          '/_nuxt/',
+          '/api/',
+          '/admin/'
+        ]
+      }
+    ],
+    sitemap: 'https://qqfun.com/sitemap.xml'
+  },
+
   seo: {
     redirectToCanonicalSiteUrl: true,
   },
